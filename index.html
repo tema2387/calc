@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calc</title>
+    <script type="module" crossorigin src="/assets/index-Drobt-6g.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-hpPWQAo3.css">
+  </head>
+  <body>
+    <div id="app">
+      <div class="calc-wrapper flex bg-gray h-screen w-screen">
+        <div class="calc flex flex-col text-light-gray bg-light-gray p-10 rounded-xl m-auto relative">
+          <input id ="counter" value="0" readonly class="calc__counter bg-gray text-right p-3 rounded-md mb-10">
+          <div class="calc__btns flex justify-between mb-5">
+            <button id="change" class="w-[calc(50%-10px)]">+ / -</button>
+            <button id="clear" class="w-[calc(50%-10px)]">CE</button>
+          </div>
+          <div class="calc__menu flex gap-5">
+            <div class="calc__numbers grid grid-cols-3 gap-5">
+              <button id="number">7</button>
+              <button id="number">8</button>
+              <button id="number">9</button>
+              <button id="number">4</button>
+              <button id="number">5</button>
+              <button id="number">6</button>
+              <button id="number">1</button>
+              <button id="number">2</button>
+              <button id="number">3</button>
+              <button id="number">0</button>
+              <button id="dot">.</button>
+              <button id="calculate">=</button>
+            </div>
+            <div class="calc__operators grid grid-cols-1 gap-5">
+              <button id="operator">+</button>
+              <button id="operator">-</button>
+              <button id="operator">*</button>
+              <button id="operator">/</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
