@@ -1,5 +1,4 @@
-import './style.css'
-import { addNumberToCounter, addOperatorToCounter, addDotToCounter, clearCounter, calculateCounter, changeNumber} from './counter.js'
+import { addNumberToCounter, addOperatorToCounter, addDotToCounter, clearCounter, calculateCounter, changeNumber} from './app/counter.js'
 
 const nums = document.querySelectorAll('#number');
 const operators = document.querySelectorAll('#operator');
